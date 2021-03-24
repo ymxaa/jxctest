@@ -40,6 +40,9 @@ public class GoodsController {
         //我加的test
         System.out.println("ymx test1");
         System.out.println("ymx test2");
+
+        //第三天了
+        System.out.println("waawwawaaw");
         return null;
     }
 
