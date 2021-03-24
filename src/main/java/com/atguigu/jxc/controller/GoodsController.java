@@ -30,11 +30,12 @@ public class GoodsController {
      * @param goodsTypeId 商品类别ID
      * @return
      */
-  /*  @RequestMapping("/listInventory")
+    @RequestMapping("/listInventory")
     @RequiresPermissions(value="当前库存查询")
     public Map<String,Object> listInventory(Integer page, Integer rows, String codeOrName, Integer goodsTypeId) {
-        return goodsService.listInventory(page, rows, codeOrName, goodsTypeId);
-    }*/
+        System.out.println("hello word!!");
+        return null;
+    }
 
     /**
      * 分页查询商品信息
