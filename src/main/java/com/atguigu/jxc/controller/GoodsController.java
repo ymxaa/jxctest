@@ -37,7 +37,7 @@ public class GoodsController {
         System.out.println("hello word jian");
         System.out.println("33333333333");
         System.out.println("44444444444");
-        //我的打印
+        //我加的test
         System.out.println("ymx test1");
         System.out.println("ymx test2");
         return null;
