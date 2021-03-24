@@ -30,15 +30,14 @@ public class GoodsController {
      * @param goodsTypeId 商品类别ID
      * @return
      */
-  /*  @RequestMapping("/listInventory")
-    @RequiresPermissions(value="当前库存查询")
-    public Map<String,Object> listInventory(Integer page, Integer rows, String codeOrName, Integer goodsTypeId) {
-        return goodsService.listInventory(page, rows, codeOrName, goodsTypeId);
-    }*/
     @RequestMapping("/listInventory")
     @RequiresPermissions(value="当前库存查询")
     public Map<String,Object> listInventory(Integer page, Integer rows, String codeOrName, Integer goodsTypeId) {
-
+        System.out.println("hello word!!");
+        System.out.println("hello word jian");
+        System.out.println("33333333333");
+        System.out.println("44444444444");
+        //我的打印
         System.out.println("ymx test1");
         System.out.println("ymx test2");
         return null;
