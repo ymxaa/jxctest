@@ -34,6 +34,7 @@ public class GoodsController {
     @RequiresPermissions(value="当前库存查询")
     public Map<String,Object> listInventory(Integer page, Integer rows, String codeOrName, Integer goodsTypeId) {
         System.out.println("hello word!!");
+        System.out.println("hello word jian");
         return null;
     }
 
