@@ -35,6 +35,14 @@ public class GoodsController {
     public Map<String,Object> listInventory(Integer page, Integer rows, String codeOrName, Integer goodsTypeId) {
         return goodsService.listInventory(page, rows, codeOrName, goodsTypeId);
     }*/
+    @RequestMapping("/listInventory")
+    @RequiresPermissions(value="当前库存查询")
+    public Map<String,Object> listInventory(Integer page, Integer rows, String codeOrName, Integer goodsTypeId) {
+
+        System.out.println("ymx test1");
+        System.out.println("ymx test2");
+        return null;
+    }
 
     /**
      * 分页查询商品信息
