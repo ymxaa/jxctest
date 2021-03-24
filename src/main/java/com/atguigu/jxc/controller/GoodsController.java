@@ -35,6 +35,7 @@ public class GoodsController {
     public Map<String,Object> listInventory(Integer page, Integer rows, String codeOrName, Integer goodsTypeId) {
         System.out.println("hello word!!");
         System.out.println("hello word jian");
+        System.out.println("33333333333");
         return null;
     }
 
