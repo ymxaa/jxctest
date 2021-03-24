@@ -43,6 +43,7 @@ public class GoodsController {
 
         //第三天了
         System.out.println("waawwawaaw");
+        System.out.println("555555");
         return null;
     }
 
