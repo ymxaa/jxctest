@@ -36,6 +36,7 @@ public class GoodsController {
         System.out.println("hello word!!");
         System.out.println("hello word jian");
         System.out.println("33333333333");
+        System.out.println("44444444444");
         return null;
     }
 
